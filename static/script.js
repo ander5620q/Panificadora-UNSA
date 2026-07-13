@@ -63,7 +63,7 @@ function asignarEventosAgregar() {
             
             if (prodEnData) {
                 if (prodEnData.stock <= 0) {
-                    alert("¡Lo sentimos! Ya no queda stock de " + prodEnData.nombre);
+                    alert("¡Lo sentimos!😞🥺 Ya no queda stock de " + prodEnData.nombre);
                     return;
                 }
                 
