@@ -168,7 +168,7 @@ if (botonPedido) {
             alert("El carrito está vacío");
             return;
         }
-        alert("¡Pedido simulado con éxito! (En GitHub Pages no se puede modificar el archivo JSON permanentemente).");
+        alert("¡Pedido simulado con éxito!, compra un pancito mas😁😁).");
         carrito = [];
         actualizarCarrito();
     });
