@@ -1,249 +1,92 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
-<meta charset="UTF-8">
-
-<title>Panadería UNSA</title>
-
-<link rel="stylesheet" href="static/style.css">
-
+    <meta charset="UTF-8">
+    <title>Panadería UNSA</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
-
 <body>
 
 <header class="navbar">
-
     <div class="logo">
-
-        <img src="static/img/logo.png">
-
+        <img src="static/logo.png" alt="Logo">
         <div class="titulo">
-
             <h1>Panificadora UNSA</h1>
-
             <p>Pan fresco • Calidad • Tradición</p>
-
         </div>
-
     </div>
-
 
     <div class="acciones">
-
-        <input
-        id="buscador"
-        type="text"
-        placeholder="🔍 Buscar productos...">
-
+        <input id="buscador" type="text" placeholder="🔍 Buscar productos...">
     </div>
-
-
 </header>
 
-
 <section class="banner">
-
-    <img src="{{ url_for('static', filename='img/banner.jpg') }}" alt="Panificadora UNSA">
-
+    <img src="static/img/banner.jpg" alt="Panificadora UNSA">
     <div class="banner-texto">
         <h1>Panificadora UNSA</h1>
         <p>Tradición, calidad y sabor arequipeño</p>
         <a href="#productos">Ver productos</a>
     </div>
-
 </section>
 
 <div class="categorias">
     <h3>Categorías</h3>
-
     <button class="filtro" data-categoria="Panes">🥖 Panes</button>
-
     <button class="filtro" data-categoria="Queques">🍰 Queques</button>
-
     <button class="filtro" data-categoria="Cupcakes">🧁 Cupcakes</button>
-
     <button class="filtro" data-categoria="Tortas">🎂 Tortas</button>
-
     <button class="filtro" data-categoria="Empanadas">🥟 Empanadas</button>
-
     <button class="filtro" data-categoria="Pasteles">🍪 Pasteles</button>
-
     <button class="filtro" data-categoria="Panetones">🎄 Panetones</button>
-
     <button class="filtro" data-categoria="todos">Todos</button>
 </div>
+
 <div class="contenedor">
+    <div class="productos" id="productos"></div>
 
-
-<div class="productos" id="productos">
-
-{% for p in productos %}
-
-<div class="card" data-nombre="{{p.nombre}}" data-categoria="{{p.categoria}}">
-
-<img src="{{ url_for('static', filename=p.imagen) }}" alt="{{p.nombre}}">
-
-<div class="etiqueta">
-
-{{p.etiqueta}}
-
-</div>
-
-<div class="info">
-
-<h2>{{p.nombre}}</h2>
-
-<p class="categoria">
-{{p.categoria}}
-</p>
-
-<p>
-S/. {{p.precio}}
-</p>
-
-</div>
-
-<p>Stock: {{p.stock}}</p>
-
-<button
-class="agregar"
-
-data-id="{{p.id}}"
-
-data-nombre="{{p.nombre}}"
-
-data-precio="{{p.precio}}"
-
->
-
-Agregar
-
-</button>
-
-</div>
-
-{% endfor %}
-
-</div>
-
-
-<div class="carrito">
-
-<h2>
-
-🛒 Mi Pedido
-
-(<span id="contador">0</span>)
-
-</h2>
-
-
-<hr>
-
-<div id="listaCarrito">
-
-<p>No hay productos.</p>
-
-</div>
-
-<hr>
-
-<h3>
-
-Total:
-
-<span id="total">
-
-S/.0.00
-
-</span>
-
-</h3>
-
-<button id="registrarPedido" class="pedido">
-
-Registrar Pedido
-
-</button>
-
-</div>
-
+    <div class="carrito">
+        <h2>🛒 Mi Pedido (<span id="contador">0</span>)</h2>
+        <hr>
+        <div id="listaCarrito">
+            <p>No hay productos.</p>
+        </div>
+        <hr>
+        <h3>Total: <span id="total">S/.0.00</span></h3>
+        <button id="registrarPedido" class="pedido">Registrar Pedido</button>
+    </div>
 </div>
 
 <div class="volver-arriba">
-
-    <button id="btnArriba">
-        ⬆ Volver arriba
-    </button>
-
+    <button id="btnArriba">⬆ Volver arriba</button>
 </div>
+
 <footer class="footer">
-
     <div class="footer-contenido">
-
         <div class="footer-columna">
-
             <h2>🏛️ Panificadora UNSA</h2>
-
             <p>Pan fresco • Calidad • Tradición</p>
-
             <p>Elaborando productos de calidad para la comunidad universitaria.</p>
-
         </div>
-
         <div class="footer-columna">
-
             <h3>📍 Contáctanos</h3>
-
             <p>☎ (054) 241612</p>
-
             <p>📍 Calle Paucarpata s/n</p>
-
             <p>📍 Calle Aurora</p>
-
         </div>
-
         <div class="footer-columna">
-
             <h3>🌐 Redes Oficiales</h3>
-
-            <p>
-                <a href="https://www.unsa.edu.pe/" target="_blank">
-                    🌍 Página Web
-                </a>
-            </p>
-
-            <p>
-                <a href="https://www.facebook.com/PaginaOficialUNSA/?locale=es_LA" target="_blank">
-                    📘 Facebook
-                </a>
-            </p>
-
-            <p>
-                <a href="https://x.com/UNSA_Oficial?lang=es" target="_blank">
-                    🐣 X (Twitter)
-                </a>
-            </p>
-
+            <p><a href="https://www.unsa.edu.pe/" target="_blank">🌍 Página Web</a></p>
+            <p><a href="https://www.facebook.com/PaginaOficialUNSA/?locale=es_LA" target="_blank">📘 Facebook</a></p>
+            <p><a href="https://x.com/UNSA_Oficial?lang=es" target="_blank">🐣 X (Twitter)</a></p>
         </div>
-
     </div>
-
     <hr>
-
     <p class="copyright">
-
         © 2026 Panificadora UNSA | Proyecto desarrollado para la Universidad Nacional de San Agustín.
-
     </p>
-
 </footer>
 
-<script src="{{ url_for('static', filename='script.js') }}"></script>
-
+<script src="static/script.js"></script>
 </body>
-
 </html>
