@@ -59,7 +59,7 @@ function asignarEventosAgregar() {
         boton.onclick = () => {
             const producto = {
                 id: Number(boton.dataset.id),
-                nombre: Boton.dataset.nombre,
+                nombre: boton.dataset.nombre,
                 precio: Number(boton.dataset.precio)
             };
 
