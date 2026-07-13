@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pan de Molde",
+        "precio": 8.5,
+        "stock": 23,
+        "categoria": "Panes",
+        "etiqueta": "🥖 Fresco",
+        "imagen": "img/pan_de_molde.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Guagua Grande",
+        "precio": 12,
+        "stock": 13,
+        "categoria": "Panes",
+        "etiqueta": "👶 Tradicional",
+        "imagen": "img/guagua_grande.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Guagua Mediana",
+        "precio": 10,
+        "stock": 18,
+        "categoria": "Panes",
+        "etiqueta": "👶 Favorita",
+        "imagen": "img/guagua_mediana.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Guagua Pequeña",
+        "precio": 5,
+        "stock": 23,
+        "categoria": "Panes",
+        "etiqueta": "👶 Dulce",
+        "imagen": "img/guagua_pequena.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Caramandunga (4 unidades)",
+        "precio": 1,
+        "stock": 72,
+        "categoria": "Panes",
+        "etiqueta": "🥐 Oferta",
+        "imagen": "img/caramandunga.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Pan Integral",
+        "precio": 1.8,
+        "stock": 44,
+        "categoria": "Panes",
+        "etiqueta": "🌾 Saludable",
+        "imagen": "img/pan_integral.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Queque (Molde)",
+        "precio": 12,
+        "stock": 10,
+        "categoria": "Queques",
+        "etiqueta": "🍰 Casero",
+        "imagen": "img/queque.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Cupcake de Vainilla",
+        "precio": 5,
+        "stock": 20,
+        "categoria": "Cupcakes",
+        "etiqueta": "🧁 Nuevo",
+        "imagen": "img/cupcake_vainilla.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Cupcake de Chocolate",
+        "precio": 5.5,
+        "stock": 20,
+        "categoria": "Cupcakes",
+        "etiqueta": "🍫 Favorito",
+        "imagen": "img/cupcake_chocolate.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Torta Moka",
+        "precio": 55,
+        "stock": 6,
+        "categoria": "Tortas",
+        "etiqueta": "☕ Premium",
+        "imagen": "img/torta_moka.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Torta de Zanahoria",
+        "precio": 48,
+        "stock": 6,
+        "categoria": "Tortas",
+        "etiqueta": "🥕 Casera",
+        "imagen": "img/torta_zanahoria.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Torta de Plátano",
+        "precio": 46,
+        "stock": 5,
+        "categoria": "Tortas",
+        "etiqueta": "🍌 Deliciosa",
+        "imagen": "img/torta_platano.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "Torta de Quinua",
+        "precio": 52,
+        "stock": 5,
+        "categoria": "Tortas",
+        "etiqueta": "🌾 Especial",
+        "imagen": "img/torta_quinua.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Torta de Vainilla",
+        "precio": 45,
+        "stock": 8,
+        "categoria": "Tortas",
+        "etiqueta": "🎂 Clásica",
+        "imagen": "img/torta_vainilla.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Torta Helada",
+        "precio": 60,
+        "stock": 4,
+        "categoria": "Tortas",
+        "etiqueta": "❄️ Muy Pedida",
+        "imagen": "img/torta_helada.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "Empanada de Queso",
+        "precio": 4.5,
+        "stock": 30,
+        "categoria": "Empanadas",
+        "etiqueta": "🧀 Popular",
+        "imagen": "img/empanada_queso.jpg"
+    },
+    {
+        "id": 17,
+        "nombre": "Empanada Mixta",
+        "precio": 5.5,
+        "stock": 25,
+        "categoria": "Empanadas",
+        "etiqueta": "🔥 Más Vendida",
+        "imagen": "img/empanada_mixta.jpg"
+    },
+    {
+        "id": 18,
+        "nombre": "Alfajor",
+        "precio": 3.5,
+        "stock": 35,
+        "categoria": "Pasteles",
+        "etiqueta": "🍪 Dulce",
+        "imagen": "img/alfajor.jpg"
+    },
+    {
+        "id": 19,
+        "nombre": "Pie de Manzana",
+        "precio": 7.5,
+        "stock": 12,
+        "categoria": "Pasteles",
+        "etiqueta": "🍎 Casero",
+        "imagen": "img/pie_manzana.jpg"
+    },
+    {
+        "id": 20,
+        "nombre": "Milhojas",
+        "precio": 8,
+        "stock": 11,
+        "categoria": "Pasteles",
+        "etiqueta": "🥮 Premium",
+        "imagen": "img/milhojas.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Condesa",
+        "precio": 7,
+        "stock": 14,
+        "categoria": "Pasteles",
+        "etiqueta": "✨ Especial",
+        "imagen": "img/condesa.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Panetón Bolsa (1 kg)",
+        "precio": 18,
+        "stock": 20,
+        "categoria": "Panetones",
+        "etiqueta": "🎄 Oferta",
+        "imagen": "img/paneton_bolsa.jpg"
+    },
+    {
+        "id": 23,
+        "nombre": "Panetón Caja (1 kg)",
+        "precio": 25,
+        "stock": 7,
+        "categoria": "Panetones",
+        "etiqueta": "🎁 Premium",
+        "imagen": "img/paneton_caja.jpg"
+    }
+]

@@ -1,0 +1,503 @@
+[
+    {
+        "fecha": "06/07/2026 19:18",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 1
+            },
+            {
+                "id": "1",
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:19",
+        "productos": [
+            {
+                "id": "1",
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 5
+            },
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 5
+            },
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 5
+            },
+            {
+                "id": "4",
+                "nombre": "Jugo de Papaya",
+                "precio": 5,
+                "cantidad": 6
+            },
+            {
+                "id": "5",
+                "nombre": "Triple",
+                "precio": 7,
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:20",
+        "productos": [
+            {
+                "id": "1",
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 9
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:24",
+        "productos": [
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 4
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:24",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 2
+            },
+            {
+                "id": "1",
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 1
+            },
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 2
+            },
+            {
+                "id": "4",
+                "nombre": "Jugo de Papaya",
+                "precio": 5,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:25",
+        "productos": [
+            {
+                "id": "1",
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 2
+            },
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 2
+            },
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:25",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 2
+            },
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:40",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:40",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 5
+            },
+            {
+                "id": "3",
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:40",
+        "productos": [
+            {
+                "id": "2",
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 20
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:41",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 6
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:46",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 4
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:53",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:53",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 18
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 19:54",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 13
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 20:07",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 20:07",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "fecha": "06/07/2026 20:07",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 7
+            }
+        ]
+    },
+    {
+        "fecha": "08/07/2026 16:17",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 1
+            },
+            {
+                "id": 1,
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:20",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:20",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "Pan con Pollo",
+                "precio": 6.5,
+                "cantidad": 7
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:26",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 1
+            },
+            {
+                "id": 3,
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:26",
+        "productos": [
+            {
+                "id": 3,
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:26",
+        "productos": [
+            {
+                "id": 3,
+                "nombre": "Café",
+                "precio": 3.5,
+                "cantidad": 6
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:36",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 9
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 19:36",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "Empanada",
+                "precio": 4,
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 20:18",
+        "productos": [
+            {
+                "id": 23,
+                "nombre": "Panetón Caja (1 kg)",
+                "precio": 25,
+                "cantidad": 5
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 20:18",
+        "productos": [
+            {
+                "id": 23,
+                "nombre": "Panetón Caja (1 kg)",
+                "precio": 25,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "fecha": "11/07/2026 20:52",
+        "productos": [
+            {
+                "id": 4,
+                "nombre": "Guagua Pequeña",
+                "precio": 5,
+                "cantidad": 1
+            },
+            {
+                "id": 3,
+                "nombre": "Guagua Mediana",
+                "precio": 10,
+                "cantidad": 1
+            },
+            {
+                "id": 2,
+                "nombre": "Guagua Grande",
+                "precio": 12,
+                "cantidad": 1
+            },
+            {
+                "id": 1,
+                "nombre": "Pan de Molde",
+                "precio": 8.5,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "13/07/2026 12:09",
+        "productos": [
+            {
+                "id": 1,
+                "nombre": "Pan de Molde",
+                "precio": 8.5,
+                "cantidad": 1
+            },
+            {
+                "id": 2,
+                "nombre": "Guagua Grande",
+                "precio": 12,
+                "cantidad": 1
+            },
+            {
+                "id": 3,
+                "nombre": "Guagua Mediana",
+                "precio": 10,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "13/07/2026 12:09",
+        "productos": [
+            {
+                "id": 5,
+                "nombre": "Caramandunga (4 unidades)",
+                "precio": 1,
+                "cantidad": 4
+            }
+        ]
+    },
+    {
+        "fecha": "13/07/2026 12:21",
+        "productos": [
+            {
+                "id": 20,
+                "nombre": "Milhojas",
+                "precio": 8,
+                "cantidad": 1
+            },
+            {
+                "id": 21,
+                "nombre": "Condesa",
+                "precio": 7,
+                "cantidad": 1
+            },
+            {
+                "id": 23,
+                "nombre": "Panetón Caja (1 kg)",
+                "precio": 25,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "fecha": "13/07/2026 12:40",
+        "productos": [
+            {
+                "id": 5,
+                "nombre": "Caramandunga (4 unidades)",
+                "precio": 1,
+                "cantidad": 4
+            },
+            {
+                "id": 6,
+                "nombre": "Pan Integral",
+                "precio": 1.8,
+                "cantidad": 1
+            },
+            {
+                "id": 4,
+                "nombre": "Guagua Pequeña",
+                "precio": 5,
+                "cantidad": 1
+            }
+        ]
+    }
+]
